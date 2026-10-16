@@ -4,7 +4,7 @@ title: BrainLog privacy policy
 
 # BrainLog privacy policy
 
-Last updated: 15 October 2026
+Last updated: 16 October 2026
 
 BrainLog is a personal application used only by its owner. It has no other users.
 
@@ -52,12 +52,18 @@ No other third party receives Google user data.
   while a task, question or review cites it.
 - Files the owner sends in Telegram are deleted after 30 days.
 - These have no time limit: notes, tasks, questions and reviews; the emails and events
-  BrainLog offered; its messages with the owner; and the assistant's working history, which
-  includes text from the emails, events and attachments it read.
+  BrainLog offered; its messages with the owner; BrainLog's records of the assistant's work;
+  and the assistant's memory, its short notes on the owner's arrangements and preferences,
+  which can include details from emails and events.
+- The assistant's own working history includes text from the emails, events and attachments
+  it read. Each of its conversations is deleted about 180 days after its last activity, and
+  the full copies it saves of requests to AI model providers that fail or are stopped are
+  deleted after 30 days.
 - An audit history records each change. After 30 days, any part of a record over 2 KB is
   replaced by its size and a fingerprint; shorter text, such as a short email, can remain.
-- Daily backups on the server are kept for 7 days. DigitalOcean's server backups are kept
-  on its own schedule.
+- Daily backups on the server are kept for 7 days. Copies made before an installation, by
+  hand, or for a review are kept until the owner removes them. DigitalOcean's server backups
+  are kept on its own schedule.
 
 **Google API Services.** BrainLog's use and transfer of information received from Google APIs
 adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy),
